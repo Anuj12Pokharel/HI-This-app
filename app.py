@@ -16,7 +16,7 @@ future_data = pd.DataFrame()
 
 # Load and preprocess data
 def load_data():
-    file_path = r'C:\Users\hp\Desktop\weekly\backend\dashboard1_modified - Sheet1.csv'  # Update file path
+    file_path = 'dashboard1_modified - Sheet1.csv'  # Update file path
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Data file not found at {file_path}")
     
