@@ -144,7 +144,7 @@ def get_predicted_data():
         future_data_copy['year'] = historical_data['year'].iloc[-1]  # Use the last year from historical data
         future_data_copy['district'] = historical_data['district'].iloc[0]  # Use the district from the historical data (can adjust as needed)
         future_data_copy['population'] = historical_data['population'].iloc[0]  # Same for population
-        future_data_copy['week'] = range(historical_data['week'].max() + 1, historical_data['week'].max() + 1 + len(future_data_copy))
+        future_data_copy['week'] = historical_data['week'].iloc[0]
         
         # Rearrange the columns to match the requested structure
         future_data_copy = future_data_copy[['year', 'district', 'population', 'week', 'rainsum', 'meantemperature', 'weekly_hospitalised_cases']]
