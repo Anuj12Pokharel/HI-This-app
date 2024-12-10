@@ -58,3 +58,4 @@ urllib3==2.2.3
 ushlex==0.99.1
 virtualenv==20.28.0
 websocket-client==1.8.0
+gunicorn==23.0.0
