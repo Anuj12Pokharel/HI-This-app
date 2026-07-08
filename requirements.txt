@@ -12,7 +12,7 @@ docutils==0.21.2
 et_xmlfile==2.0.0
 filelock==3.16.1
 fonttools==4.55.1
-idna==3.10
+idna==3.15
 jaraco.classes==3.4.0
 jaraco.context==6.0.1
 jaraco.functools==4.1.0
