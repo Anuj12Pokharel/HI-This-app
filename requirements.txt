@@ -54,7 +54,7 @@ threadpoolctl==3.5.0
 twine==6.0.1
 typing==3.7.4.3
 tzdata==2024.2
-urllib3==2.2.3
+urllib3==2.8.0
 ushlex==0.99.1
 virtualenv==20.28.0
 websocket-client==1.8.0
